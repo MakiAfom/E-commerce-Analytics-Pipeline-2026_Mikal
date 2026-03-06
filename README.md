@@ -25,3 +25,25 @@ One command. Complete analysis. Zero manual work.
 |Is our referral program worth it? 272% higher order value from referred customers |
 How does Black Friday perform? |70% higher average order vs normal days |
 Which region should we focus on? West region = $845K profit (top performer) |
+
+Ecommerce_Analysis_2025/
+│
+├── data/
+│ ├── raw/ # Original files (DO NOT EDIT)
+│ │ ├── buyers.csv
+│ │ ├── sales.csv
+│ │ └── products/ # 12 product CSV files
+│ ├── interim/ # Cleaned individual files
+│ └── processed/ # master_sales_data.csv
+│
+├── src/ # All Python code
+│ ├── data/ # Cleaning scripts
+│ ├── analysis/ # Business analysis
+│ ├── visualization/ # Chart generation
+│ ├── recommendations/ # Strategic insights
+│ └── reports/ # Report generator
+│
+├── templates/ # Report templates
+├── reports/ # Generated outputs
+├── main.py # Run everything
+└── requirements.txt 
