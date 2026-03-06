@@ -35,15 +35,39 @@ Ecommerce_Analysis_2025/
 │ │ └── products/ # 12 product CSV files
 │ ├── interim/ # Cleaned individual files
 │ └── processed/ # master_sales_data.csv
-│
+
+The Pipeline
+
+Step 1: Data Cleaning
+Each raw file gets cleaned:
+
+clean_buyers.py - Fixes customer data
+clean_sales.py - Fixes dates, quantities, typos
+clean_products.py - Combines 12 files, cleans prices
 ├── src/ # All Python code
 │ ├── data/ # Cleaning scripts
 │ ├── analysis/ # Business analysis
 │ ├── visualization/ # Chart generation
 │ ├── recommendations/ # Strategic insights
 │ └── reports/ # Report generator
-│
+
+Step 2: Data Integration
+join.py merges all data into one master file (352K rows)
+
+Step 3: Analysis
+analysis.py calculates revenue, profit, margins, and answers business questions
+
+Step 4: Recommendations
+recommender.py turns insights into action:
+
+Priority 1: Expand referral program (272% higher value)
+Priority 2: Double Black Friday inventory (70% higher orders)
+Priority 3: Close overnight shifts ($54K savings)
+Priority 4: Focus marketing on West region
 ├── templates/ # Report templates
 ├── reports/ # Generated outputs
 ├── main.py # Run everything
-└── requirements.txt 
+└── requirements.txt
+
+Step 5: Reports 📝
+generate_reports.py creates executive summaries, stakeholder reports, and action plans
