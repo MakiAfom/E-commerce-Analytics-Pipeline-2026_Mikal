@@ -71,3 +71,30 @@ Priority 4: Focus marketing on West region
 
 Step 5: Reports 📝
 generate_reports.py creates executive summaries, stakeholder reports, and action plans
+
+
+
+
+## FINANCIAL METRICS
+   • Total Revenue: $8.2M
+   • Total Profit: $2.1M
+   • Avg Order Value: $22
+   • Total Orders: 352K
+
+## REFERRAL PROGRAM (YOUR BIGGEST WIN!)
+   • Referred customers: $67/order
+   • Non-referred: $18/order
+   • 272% HIGHER value!
+
+## BLACK FRIDAY
+   • BF orders: $60/order
+   • Normal days: $22/order
+   • 70% higher average order
+
+##STAFFING OPTIMIZATION
+   • Low volume hours: 1AM, 2AM, 3AM, 4AM, 5AM
+   • Potential savings: $54,750/year
+
+## REGIONAL PERFORMANCE
+   • Best region: West ($845K profit)
+   • Best segment: Corporate customers
