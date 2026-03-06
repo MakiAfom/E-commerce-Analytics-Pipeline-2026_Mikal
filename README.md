@@ -72,6 +72,28 @@ Priority 4: Focus marketing on West region
 Step 5: Reports 📝
 generate_reports.py creates executive summaries, stakeholder reports, and action plans
 
+# E-commerce Analytics Pipeline 2026
+
+A complete data pipeline that transforms raw e-commerce data into strategic business insights. From messy CSV files to boardroom-ready recommendations in one command.
+
+---
+
+## 🎯 What It Does
+
+- **Cleans** messy data (dates, duplicates, typos, missing values)
+- **Combines** 12+ product files into one master catalog
+- **Joins** everything into a single master dataset
+- **Answers** 5 key business questions
+- **Generates** actionable recommendations
+- **Creates** stakeholder-ready reports
+
+**One command. Complete analysis. Zero manual work.**
+
+---
+
+## 📊 Key Findings
+
+
 
 
 
