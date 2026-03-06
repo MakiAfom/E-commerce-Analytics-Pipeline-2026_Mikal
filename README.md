@@ -18,15 +18,34 @@ Creates stakeholder-ready reports
 
 One command. Complete analysis. Zero manual work.
 
-|Question                                                What We Found 
+🎯## What This Project Does
+This pipeline takes raw e-commerce data (customers, sales, products) and:
 
-|When should we staff our warehouse?       Peak: 12-4PM, Low: 1-5AM → Save $54K/year |
- Which customer segment is most profitable?  Corporate customers = highest margin |
-|Is our referral program worth it? 272% higher order value from referred customers |
-How does Black Friday perform? |70% higher average order vs normal days |
-Which region should we focus on? West region = $845K profit (top performer) |
+Cleans messy data (dates, duplicates, typos, missing values)
 
-Ecommerce_Analysis_2025/
+Combines 12+ product files into one master catalog
+
+Joins everything into a single master dataset
+
+Analyzes 5 key business questions
+
+Visualizes insights with professional charts
+
+Generates actionable recommendations
+
+Creates stakeholder-ready reports
+
+One command. Complete analysis. Zero manual work.
+
+# Question                                                #What We Found 
+
+**When should we staff our warehouse?**                          Peak: 12-4PM, Low: 1-5AM → Save $54K/year 
+ **Which customer segment is most profitable?**                    Corporate customers = highest margin 
+**Is our referral program worth it?**                                         272% higher order value from referred customers 
+**How does Black Friday perform?**                                          70% higher average order vs normal days 
+**Which region should we focus on?**                                       West region = $845K profit (top performer) 
+
+Ecommerce_Analysis_2025/Project Pipeline
 │
 ├── data/
 │ ├── raw/ # Original files (DO NOT EDIT)
@@ -36,14 +55,14 @@ Ecommerce_Analysis_2025/
 │ ├── interim/ # Cleaned individual files
 │ └── processed/ # master_sales_data.csv
 
-The Pipeline
-
-Step 1: Data Cleaning
+## Step 1: Data Cleaning
 Each raw file gets cleaned:
 
 clean_buyers.py - Fixes customer data
 clean_sales.py - Fixes dates, quantities, typos
 clean_products.py - Combines 12 files, cleans prices
+
+
 ├── src/ # All Python code
 │ ├── data/ # Cleaning scripts
 │ ├── analysis/ # Business analysis
@@ -51,20 +70,15 @@ clean_products.py - Combines 12 files, cleans prices
 │ ├── recommendations/ # Strategic insights
 │ └── reports/ # Report generator
 
-Step 2: Data Integration
+## Step 2: Data Integration
 join.py merges all data into one master file (352K rows)
 
 Step 3: Analysis
 analysis.py calculates revenue, profit, margins, and answers business questions
 
-Step 4: Recommendations
+## Step 4: Recommendations
 recommender.py turns insights into action:
-
-Priority 1: Expand referral program (272% higher value)
-Priority 2: Double Black Friday inventory (70% higher orders)
-Priority 3: Close overnight shifts ($54K savings)
-Priority 4: Focus marketing on West region
-├── templates/ # Report templates
+── templates/ # Report templates
 ├── reports/ # Generated outputs
 ├── main.py # Run everything
 └── requirements.txt
